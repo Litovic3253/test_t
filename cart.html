@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адэжда</title>
+    <link rel="stylesheet" href="stale.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+</head>
+<body>
+    <!-- header-->
+    <header>
+        <div class="nav container">
+        <!-- menu icon-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+                <!-- logo-->
+                <a href='index.html' class="logo">Лого</a>
+                <!-- navbar-->
+                <div class="navbar">
+                    <a href="#" class="nav-link">СТР-1</a>
+                    <a href="#" class="nav-link">СТР-2</a>
+                    <a href="#" class="nav-link">СТР-3</a>
+                    <a href="#" class="nav-link">СТР-4</a>
+                </div>
+                <!-- card-icon-->
+                <a href="./cart.html">
+                    <i class='bx bx-shopping-bag' id="card-icon" data-quantity="0"></i>
+                </a>
+            </div>
+    </header>
+    <!--cart-->
+    <section class="cart-container container">
+        <a href="index.html" class="back-homepage">
+            <i class="bx bx-chevron-left"></i>
+            <span>назад</span>
+        </a>
+        <h2 class="cart-s-title">Shopping Cart</h2>
+        <div class="cart-box">
+            <div class="cart-data">
+                <div id="cartItems"></div>
+            </div>
+            <div class="cart-t">
+                <div class="cartTotal"></div>
+                <a href="#" class="checkout-bth">Checkout</a>
+            </div>
+        </div>
+    </section>
+    <!--JS-->
+    <script src="./js/main.js"></script>
+</body>
+</html>
